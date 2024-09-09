@@ -1,1 +1,1 @@
-# shujaa-coaching
+# Shujaa Coaching
