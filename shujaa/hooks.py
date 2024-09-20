@@ -1,10 +1,10 @@
-# from .utils.realtime import send_shujaa_update
+from .utils.realtime import send_shujaa_update
 
 app_name = "shujaa"
 app_title = "shujaa"
 app_publisher = "ITDept"
 app_description = "shujaa Customizations"
-app_email = "it@mirageclinicsclinics.com"
+app_email = "it@mirageclinics].com"
 app_license = "mit"
 # app_include_css = "/assets/shujaa/css/printview_custom.css"
 # app_include_js = "/assets/shujaa/js/printview_script.js"
@@ -131,13 +131,13 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-#     "*": {
-#         "on_update": "shujaa.utils.realtime.send_shujaa_update",
-#         "after_insert": "shujaa.utils.realtime.send_shujaa_update",
-#         "on_trash": "shujaa.utils.realtime.send_shujaa_update",
-#     }
-# }
+doc_events = {
+    "*": {
+        "on_update": "shujaa.utils.realtime.send_shujaa_update",
+        "after_insert": "shujaa.utils.realtime.send_shujaa_update",
+        "on_trash": "shujaa.utils.realtime.send_shujaa_update",
+    }
+}
 
 # Scheduled Tasks
 # ---------------
